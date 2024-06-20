@@ -1,0 +1,3 @@
+*.xopp
+node_modules/
+out/
