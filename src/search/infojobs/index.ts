@@ -73,6 +73,7 @@ export const searchInfojobs = async () => {
       ".py-16.pl-24.pr-16.cursor-pointer.js_vacancyLoad.js_cardLink",
     );
     const jobsInfo = jobsCards.map((jobCard) => getJobCardInfo(jobCard));
+
     console.log(jobsInfo);
   } catch (err) {
     notifier.notify(
